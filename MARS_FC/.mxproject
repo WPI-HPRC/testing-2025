@@ -6,6 +6,9 @@ SourceFiles=Core/Src/main.c;USB_HOST/App/usb_host.c;USB_HOST/Target/usbh_conf.c;
 HeaderPath=Drivers/STM32H7xx_HAL_Driver/Inc;Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;Middlewares/ST/STM32_USB_Host_Library/Core/Inc;Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc;Drivers/CMSIS/Device/ST/STM32H7xx/Include;Drivers/CMSIS/Include;USB_HOST/App;USB_HOST/Target;Core/Inc;
 CDefines=USE_PWR_LDO_SUPPLY;USE_PWR_LDO_SUPPLY;USE_PWR_LDO_SUPPLY;USE_HAL_DRIVER;STM32H743xx;USE_HAL_DRIVER;USE_HAL_DRIVER;
 
+[]
+SourceFiles=;;
+
 [PreviousGenFiles]
 AdvancedFolderStructure=true
 HeaderFileListSize=6
@@ -32,7 +35,4 @@ SourcePath#0=..\USB_HOST\App
 SourcePath#1=..\USB_HOST\Target
 SourcePath#2=..\Core\Src
 SourceFiles=;
-
-[]
-SourceFiles=;;
 
